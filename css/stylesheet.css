@@ -1,7 +1,30 @@
+/* Responsive Background */
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%;  
+}
+
 body {
   color: cornflowerblue;
-  background-color: black
+  background-color: white 
 }
-h1{
+h1, h2 {
   color: red 
 }
+
+.navlist li
+{
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
+}
+
+#portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
